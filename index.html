@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUT THE MUD | The Mud Made Us</title>
+    <meta name="description" content="OUT THE MUD — Streetwear born from struggle, built for greatness. THE MUD MADE US.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="announcement">
+        THE MUD MADE US. — WELCOME TO THE OTM WORLD.
+    </div>
+
+    <header class="navbar">
+        <a href="#" class="logo">OTM<span>®</span></a>
+
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#collection">COLLECTION</a>
+            <a href="#story">OUR STORY</a>
+        </nav>
+
+        <button class="cart-button" onclick="toggleCart()">
+            BAG (<span id="cart-count">0</span>)
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <p class="eyebrow">BUILT FROM THE GROUND UP.</p>
+
+            <h1>OUT THE<br><span>MUD.</span></h1>
+
+            <p class="hero-text">
+                FROM STRUGGLE TO GREATNESS.<br>
+                THIS IS MORE THAN CLOTHING.
+            </p>
+
+            <a href="#collection" class="shop-button">
+                EXPLORE THE COLLECTION ↗
+            </a>
+
+            <div class="hero-mark">OTM / 001</div>
+        </section>
+
+        <section class="collection" id="collection">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">THE FIRST CHAPTER</p>
+                    <h2>THE COLLECTION<span>.</span></h2>
+                </div>
+                <p class="collection-note">MADE TO LAST. BUILT DIFFERENT.</p>
+            </div>
+
+            <div class="product-grid">
+
+                <article class="product-card">
+            <div class="product-image image-one">
+    <img src="images/otm-tee.jpg" alt="OUT THE MUD T-shirt">
+    <span class="product-code">OTM — 001</span>
+</div>
+                        <span class="product-code">OTM — 001</span>
+                        <span class="product-art">OTM</span>
+                    </div>
+                    <p class="product-category">01 / ESSENTIALS</p>
+                    <h3>The Mud Tee</h3>
+                    <p class="product-price">COMING SOON</p>
+                    <button class="product-button" onclick="notifyComingSoon()">
+                        JOIN THE MOVEMENT
+                    </button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image image-two">
+    <img src="images/otm-jersey.jpg" alt="OUT THE MUD basketball jersey">
+    <span class="product-code">OTM — 002</span>
+</div>
+                        <span class="product-code">OTM — 002</span>
+                        <span class="product-art">00</span>
+                    </div>
+                    <p class="product-category">02 / SPORT</p>
+                    <h3>OTM Basketball Jersey</h3>
+                    <p class="product-price">COMING SOON</p>
+                    <button class="product-button" onclick="notifyComingSoon()">
+                        JOIN THE MOVEMENT
+                    </button>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image image-three">
+                        <span class="product-code">OTM — 003</span>
+                        <span class="product-art">MUD</span>
+                    </div>
+                    <p class="product-category">03 / HEADWEAR</p>
+                    <h3>The Mud Code Cap</h3>
+                    <p class="product-price">COMING SOON</p>
+                    <button class="product-button" onclick="notifyComingSoon()">
+                        JOIN THE MOVEMENT
+                    </button>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="story" id="story">
+            <p class="eyebrow">MORE THAN A LABEL.</p>
+            <h2>THE MUD<br>MADE US<span>.</span></h2>
+            <p>
+                Every journey starts somewhere. Ours starts in the mud.
+                We represent the discipline, ambition and determination
+                it takes to become something greater.
+            </p>
+            <p class="story-signature">OUT THE MUD® — EST. 2026</p>
+        </section>
+
+    </main>
+
+    <aside class="cart-panel" id="cart-panel" hidden>
+        <button class="close-cart" onclick="toggleCart()">CLOSE ✕</button>
+        <h2>YOUR BAG</h2>
+        <p>Your bag is currently empty.</p>
+        <p class="cart-note">THE MUD MADE US.</p>
+    </aside>
+
+    <footer>
+        <a href="#home" class="footer-logo">OTM®</a>
+        <p>THE MUD MADE US.</p>
+        <p>© 2026 OUT THE MUD. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
